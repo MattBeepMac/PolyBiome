@@ -219,7 +219,7 @@ ul {
   height: 100%;
   width: 50%;
   margin-left: 2%;
-  background-image: url("../img/blackboard.png");
+  background-image: url("../img/blackBoard.png");
   background-size: contain;
   background-position: left;
   background-repeat: no-repeat; }
@@ -556,6 +556,7 @@ ul {
 
   .title3 {
     margin-left: 0%;
+    transform: translate(0px, 0px);
     transition: none; }
 
   .whatItIs {
@@ -586,6 +587,7 @@ ul {
     background-image: url("../img/vesselTransparent.png"); }
 
   .scienceGuyExplains2 {
+    transform: translate(0px, 0px);
     top: 0%;
     width: 140%;
     left: -40%;
