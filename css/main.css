@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 @font-face {
   font-family: "EraserDust";
   src: url("../fonts/EraserDust.eot?") format("eot"), url("../fonts/EraserDust.woff2") format("woff2"), url("../fonts/EraserDust.woff") format("woff"), url("../fonts/EraserDust.ttf") format("truetype"), url("../fonts/EraserDust.svg#EraserDust") format("svg"); }
@@ -501,6 +501,8 @@ ul {
     font-size: 3em; }
 
 @media screen and (max-width: 767px) {
+  .body {
+	display:none}
   .navbar .logoNav img {
     left: 30%; }
 
