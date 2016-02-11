@@ -544,20 +544,26 @@ ul {
     height: 90%;
     background-size: 100% auto; }
     .logo .pill {
-      margin-left: 25%; }
+      margin-left: 25%;
+      width: auto; }
 
   .section1 {
     background-size: auto; }
 
   .title1 {
     top: 0%;
-    left: 10%;
-    width: 100%; }
+    left: 10%; }
+
+  .title3 {
+    margin-left: 0%;
+    transition: none; }
 
   .whatItIs {
-    top: 20%;
+    top: 10%;
     right: 5%;
     width: 90%; }
+    .whatItIs p {
+      font-size: 1.2em; }
 
   .blackBoard {
     background-image: url("../img/blackBoardStrech.png");
@@ -583,7 +589,8 @@ ul {
     top: 0%;
     width: 140%;
     left: -40%;
-    float: none; }
+    float: none;
+    transition: none; }
     .scienceGuyExplains2 p {
       font-size: 1.5em;
       color: black; }
