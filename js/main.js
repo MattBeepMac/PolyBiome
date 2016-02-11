@@ -14,6 +14,9 @@ $(document).ready(function(){
 
 		if ($(window).width() < 767){
 			var pillSize = 35;
+			$('.navbar').css({
+		     'transform' : 'translate(0px, '+ 0 +'px)'
+			});
 		}else{
 			var pillSize = 18;
 		};
@@ -216,12 +219,6 @@ var viewportHeight = $('.mainViewport').height() + 300;
 			};
 		sec5Target = $('.section5').offset().top - ($(window).height() / 1.2)
 		if(disTop > sec5Target){
-			$('.scienceGuyExplains3').css({
-				'opacity' : '1'
-			});
-			$('.title5').css({
-				'transform' : 'translate(0px,0px)'
-			});
 			if ($(window).width() < 767){
 				setTimeout(function(){$('.section5').css('background-image', 'url(img/bacteriaFunnyMini.gif)');}, 1000);
 			}else{

@@ -1,4 +1,4 @@
-﻿@charset "UTF-8";
+@charset "UTF-8";
 @font-face {
   font-family: "EraserDust";
   src: url("../fonts/EraserDust.eot?") format("eot"), url("../fonts/EraserDust.woff2") format("woff2"), url("../fonts/EraserDust.woff") format("woff"), url("../fonts/EraserDust.ttf") format("truetype"), url("../fonts/EraserDust.svg#EraserDust") format("svg"); }
@@ -60,6 +60,35 @@ body {
   background-size: cover;
   background-position: right;
   background-repeat: no-repeat; }
+
+.textViewport {
+  top: 80vh;
+  left: 40vw; }
+
+.next1 {
+  top: 180vh;
+  left: 45vw; }
+
+.next2 {
+  top: 280vh;
+  left: 47vw; }
+
+.next3 {
+  top: 80vh;
+  left: 47vw; }
+
+.next4 {
+  top: 480vh;
+  left: 47vw; }
+
+.next5 {
+  top: 580vh;
+  left: 47vw;
+  color: white; }
+
+.next6 {
+  top: 680vh;
+  left: 47vw; }
 
 .logo {
   height: 110%;
@@ -501,8 +530,6 @@ ul {
     font-size: 3em; }
 
 @media screen and (max-width: 767px) {
-  .body {
-	display:none}
   .navbar .logoNav img {
     left: 30%; }
 
@@ -570,6 +597,11 @@ ul {
     transform: translate(0px, 0px);
     transition: none; }
 
+  .title5 {
+    margin-left: 0%;
+    transform: translate(0px, 0px);
+    transition: none; }
+
   .whatItIs {
     top: 10%;
     right: 5%;
@@ -607,6 +639,7 @@ ul {
       font-size: 1.2em; }
 
   .scienceGuyExplains2 {
+    font-size: 1.7em;
     transform: translate(0px, 0px);
     opacity: 1;
     top: 0%;
@@ -614,9 +647,6 @@ ul {
     left: -40%;
     float: none;
     transition: none; }
-    .scienceGuyExplains2 p {
-      font-size: 1.5em;
-      color: black; }
 
   .scienceGuy {
     background-size: 50% auto; }
@@ -633,6 +663,7 @@ ul {
     margin-left: 10%; }
 
   .scienceGuyExplains3 {
+    opacity: 1;
     top: 30%;
     width: 50%;
     left: -40%;
@@ -657,13 +688,15 @@ ul {
     margin-left: 5%;
     width: 70%;
     padding-top: 10%; }
+    .text6 p {
+      font-size: 1.2em; }
 
   .secFinal {
     background-position: right center; }
 
   .logo2 {
     background-size: 100% auto;
-    background-image: url("../img/logo3.png"); }
+    background-image: url("../img/blueLogo.png"); }
 
   .finalText1 {
     opacity: 1;
@@ -679,11 +712,63 @@ ul {
     .finalText2 h1 {
       font-size: 1.2em; }
     .finalText2 p {
-      font-size: 1em; } }
+      font-size: 1em; }
+
+  .next1 {
+    top: 190vh;
+    left: 45vw; }
+
+  .next2 {
+    top: 290vh;
+    left: 47vw; }
+
+  .next3 {
+    top: 90vh;
+    left: 47vw; }
+
+  .next4 {
+    top: 490vh;
+    left: 47vw; }
+
+  .next5 {
+    top: 590vh;
+    left: 47vw;
+    color: white; }
+
+  .next6 {
+    top: 690vh;
+    left: 47vw; } }
 @media (max-width: 992px) {
   .navbar-default .navbar-nav li a {
     font-size: 0.9em;
     margin-left: -10px;
     margin-right: -10px; } }
+@media only screen and (max-device-width: 1000px) and (orientation: landscape) {
+  .mainViewport {
+    height: 200vh; }
+
+  .section1 {
+    height: 200vh; }
+
+  .section2 {
+    height: 200vh; }
+
+  .section3 {
+    height: 200vh; }
+
+  .section4 {
+    height: 200vh; }
+
+  .section5 {
+    height: 200vh; }
+
+  .section6 {
+    height: 200vh; }
+
+  .scienceGirlExplains p {
+    font-size: 1.5em; }
+
+  .textNext {
+    display: none; } }
 
 /*# sourceMappingURL=main.css.map */
