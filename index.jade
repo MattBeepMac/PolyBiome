@@ -15,12 +15,8 @@ html.no-js(lang='')
     meta(name='description', content='')
     meta(name='viewport', content='width=device-width, initial-scale=1')
     link(rel='apple-touch-icon', href='apple-touch-icon.png')
+    link(href='https://fonts.googleapis.com/css?family=Amaranth:400,700' rel='stylesheet' type='text/css')
     link(rel='stylesheet', href='css/bootstrap.min.css')
-    style.
-      body {
-      padding-top: 50px;
-      padding-bottom: 20px;
-      }
     link(rel='stylesheet', href='css/bootstrap-theme.min.css')
     link(rel='stylesheet', href='css/main.css')
     script(src='js/vendor/modernizr-2.8.3-respond-1.4.2.min.js')
@@ -43,62 +39,32 @@ html.no-js(lang='')
             span.icon-bar
           a.navbar-brand(href='#') Brand
         // Collect the nav links, forms, and other content for toggling
-        #bs-example-navbar-collapse-1.collapse.navbar-collapse
-          ul.nav.navbar-nav
+        .navbar-collapse#bs-example-navbar-collapse-1.collapse
+          ul.nav.navbar-nav.navbar-right
             li.active
               a(href='#')
-                | Link 
+                | Home 
                 span.sr-only (current)
             li
-              a(href='#') Link
-            li.dropdown
-              a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
-                | Dropdown 
-                span.caret
-              ul.dropdown-menu
-                li
-                  a(href='#') Action
-                li
-                  a(href='#') Another action
-                li
-                  a(href='#') Something else here
-                li.divider(role='separator')
-                li
-                  a(href='#') Separated link
-                li.divider(role='separator')
-                li
-                  a(href='#') One more separated link
-          form.navbar-form.navbar-left(role='search')
-            .form-group
-              input.form-control(type='text', placeholder='Search')
-            button.btn.btn-default(type='submit') Submit
-          ul.nav.navbar-nav.navbar-right
+              a(href='#') Faq
             li
-              a(href='#') Link
+              a(href='#') Igem Page
             li.dropdown
               a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
-                | Dropdown 
+                | Get in contact! 
                 span.caret
               ul.dropdown-menu
                 li
-                  a(href='#') Action
+                  a(href='#') Our blog
                 li
-                  a(href='#') Another action
-                li
-                  a(href='#') Something else here
+                  a(href='#') The team
                 li.divider(role='separator')
                 li
-                  a(href='#') Separated link
-    tempDiv
-
-
-
-
-
-    script(src='//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js')
-    script.
-      window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\\/script>')
+                  a(href='#') Support us!
+    .tempDiv
+    script(script src="js/vendor/jquery-1.12.0.min.js")
     script(src='js/vendor/bootstrap.min.js')
+    script(src="js/smooth-scroll.js")
     script(src='js/main.js')
     // Google Analytics: change UA-XXXXX-X to be your site's ID.
     script.
