@@ -40,20 +40,20 @@
 
 /* line 36, main.sass */
 .main {
-  background-image: url("../img/icoBack.jpg");
-  background-size: cover;
-  background-position: top;
+  background: #eb01a5;
+  background-image: url("../img/ico.png");
+  background-image: url("../img/ico.png"), linear-gradient(to right, #0078aa, #009eaa);
+  background-size: 100% auto;
   background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
-/* line 45, main.sass */
+/* line 47, main.sass */
 .mainText {
   min-height: 400px;
   text-align: center;
 }
 
-/* line 54, main.sass */
+/* line 56, main.sass */
 .mainBox {
   height: 80px;
 }

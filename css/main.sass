@@ -35,12 +35,14 @@
 
 .main
 	// height: 100vh
+	background: #eb01a5
+	background-image: url('../img/ico.png') /* fallback */
+	background-image: url('../img/ico.png'), linear-gradient(left,#0078AA, #009EAA) /* W3C */
 	background:
-		image: url('../img/icoBack.jpg')
-		size: cover
-		position: top
+		size: 100% auto
+		//position: top
 		repeat: no-repeat
-		attachment: fixed
+		//attachment: fixed
 
 .mainText
 	min-height: 400px
