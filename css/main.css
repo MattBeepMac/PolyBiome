@@ -67,11 +67,11 @@
   background-image: url("../img/backIco.png");
   background-image: url("../img/backIco.png"), linear-gradient(to right, #0078aa, #009eaa);
   background-image: url("../img/backIco.png"), -moz-linear-gradient(left, #0078AA, #009EAA);
-  background-image: url("../img/backIco.png"), -webkit-gradient(linear, 0 100%, 0 0, from(#0078AA), to(#009EAA));
-  background-image: url("../img/backIco.png"), -webkit-linear-gradient(left, #0078AA, #009EAA);
+  background-image: url("../img/backIco.png"), -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0%, #0078AA), color-stop(100%, #009EAA));
+  background-image: url("../img/backIco.png"), -webkit-gradient(left, #0078AA, #009EAA);
   background-image: url("../img/backIco.png"), -o-linear-gradient(left, #0078AA, #009EAA);
-  background-size: 150px auto, 100% 100%;
-  background-position: bottom 10% left 5%, center center;
+  background-size: 250px auto, 100% 100%;
+  background-position: bottom -35px left -25px, center center;
   background-repeat: no-repeat;
 }
 
@@ -95,5 +95,4 @@
 /* line 78, main.sass */
 .mainText p {
   color: white;
-  display: none;
 }
