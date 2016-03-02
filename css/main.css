@@ -42,7 +42,7 @@
 .navbar-default .navbar-brand {
   position: absolute;
   left: 50%;
-  margin-left: -115px !important;
+  margin-left: -115px;
   display: block;
   height: 150px;
   padding-bottom: 10px;
@@ -96,40 +96,41 @@
 /* line 79, main.sass */
 .mainText p {
   color: white;
+  font-size: 1em;
 }
 
-/* line 84, main.sass */
+/* line 85, main.sass */
 #sec1 #textSec1 {
   margin-top: 10%;
   margin-left: 5%;
   margin-right: 5%;
   text-align: center;
 }
-/* line 89, main.sass */
+/* line 90, main.sass */
 #sec1 #textSec1 h2 {
   font-size: 1.8em;
   font-family: Netto Offc;
   font-weight: bold;
   color: #0078AA;
 }
-/* line 94, main.sass */
+/* line 95, main.sass */
 #sec1 #textSec1 h2 span {
   color: #7AC943;
 }
-/* line 97, main.sass */
+/* line 98, main.sass */
 #sec1 #textSec1 p {
   text-align: center;
   line-height: 200%;
   color: #7f7f7f;
 }
-/* line 101, main.sass */
+/* line 102, main.sass */
 #sec1 #imgSec1 {
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 10%;
   position: relative;
 }
-/* line 106, main.sass */
+/* line 107, main.sass */
 #sec1 #imgSec1 #ribbon {
   position: absolute;
   max-width: 30%;
@@ -138,7 +139,87 @@
   transform: translate(0px, -30px);
   transition: transform 0.5s ease-in;
 }
-/* line 115, main.sass */
+/* line 116, main.sass */
 #sec1 #imgSec1 #omsMeat {
   position: absolute;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 122, main.sass */
+  .navbar-default {
+    background-color: transparent;
+    height: 100px;
+    border-bottom: none;
+    outline: none;
+  }
+  /* line 127, main.sass */
+  .navbar-default .navbar-nav > li > a {
+    color: white;
+  }
+  /* line 129, main.sass */
+  .navbar-default .navbar-nav > .active > a {
+    background-image: none;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  /* line 132, main.sass */
+  .navbar-default .navbar-collapse {
+    margin-top: 0px;
+    background-color: transparent;
+  }
+  /* line 135, main.sass */
+  .navbar-default .navbar-brand {
+    left: auto;
+    height: 100px;
+    margin-left: 0px;
+    padding-left: 5%;
+  }
+
+  /* line 140, main.sass */
+  .main {
+    background-size: 400px auto, 100% 100%;
+    background-position: bottom -80px left -35px, center center;
+    min-height: 50vh;
+  }
+
+  /* line 144, main.sass */
+  .mainText {
+    margin-top: 7%;
+  }
+  /* line 146, main.sass */
+  .mainText p {
+    font-size: 1.3em;
+  }
+  /* line 148, main.sass */
+  .mainText h1 {
+    font-size: 3em;
+    padding-top: 20px;
+  }
+
+  /* line 152, main.sass */
+  #sec1 #imgSec1 {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+}
+@media screen and (min-width: 1280px) {
+  /* line 160, main.sass */
+  .mainText {
+    margin-top: 10%;
+  }
+  /* line 162, main.sass */
+  .mainText p {
+    font-size: 2em;
+  }
+  /* line 164, main.sass */
+  .mainText h1 {
+    font-size: 3.5em;
+    padding-top: 50px;
+  }
+
+  /* line 167, main.sass */
+  .main {
+    background-size: 700px auto, 100% 100%;
+    background-position: bottom -100px left -35px, center center;
+    min-height: 100vh;
+  }
 }
