@@ -42,7 +42,7 @@
 .navbar-default .navbar-brand {
   position: absolute;
   left: 50%;
-  margin-left: -105px !important;
+  margin-left: -115px !important;
   display: block;
   height: 150px;
   padding-bottom: 10px;
@@ -71,7 +71,7 @@
   background-image: url("../img/backIco.png"), -webkit-gradient(left, #0078AA, #009EAA);
   background-image: url("../img/backIco.png"), -o-linear-gradient(left, #0078AA, #009EAA);
   background-size: 250px auto, 100% 100%;
-  background-position: bottom -35px left -25px, center center;
+  background-position: bottom -35px left -35px, center center;
   background-repeat: no-repeat;
 }
 
@@ -79,20 +79,66 @@
 .mainText {
   margin-left: 5%;
   margin-right: 5%;
+  margin-top: 10%;
   min-height: 250px;
   text-align: center;
 }
-/* line 72, main.sass */
+/* line 73, main.sass */
 .mainText h1 {
-  font-size: 2em;
+  font-size: 2.5em;
   color: white;
   font-family: Netto Offc;
 }
-/* line 76, main.sass */
+/* line 77, main.sass */
 .mainText h1 span {
   color: #7AC943;
 }
-/* line 78, main.sass */
+/* line 79, main.sass */
 .mainText p {
   color: white;
+}
+
+/* line 84, main.sass */
+#sec1 #textSec1 {
+  margin-top: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+}
+/* line 89, main.sass */
+#sec1 #textSec1 h2 {
+  font-size: 1.8em;
+  font-family: Netto Offc;
+  font-weight: bold;
+  color: #0078AA;
+}
+/* line 94, main.sass */
+#sec1 #textSec1 h2 span {
+  color: #7AC943;
+}
+/* line 97, main.sass */
+#sec1 #textSec1 p {
+  text-align: center;
+  line-height: 200%;
+  color: #7f7f7f;
+}
+/* line 101, main.sass */
+#sec1 #imgSec1 {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+  position: relative;
+}
+/* line 106, main.sass */
+#sec1 #imgSec1 #ribbon {
+  position: absolute;
+  max-width: 30%;
+  height: auto;
+  left: 38%;
+  transform: translate(0px, -30px);
+  transition: transform 0.5s ease-in;
+}
+/* line 115, main.sass */
+#sec1 #imgSec1 #omsMeat {
+  position: absolute;
 }
