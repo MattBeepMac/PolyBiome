@@ -7,54 +7,78 @@
 	height: 2000px
 
 .navbar-default
-	//box-shadow: none
+	box-shadow: none
+	position: relative
 	border: none
+	outline: 1px solid rgba(255,255,255,1)
+	outline-offset: 5px
 	border-radius: 0px
-	//shadow: none
+	height: 150px
 	margin-bottom: 0px
 	background-image: none
 	background-color: rgba(255,255,255,0)
 
 	.navbar-toggle
+		margin-top: 5%
+		margin-right: 10%
+		z-index: 1
 		.icon-bar
 			background-color: rgb(255,255,255)
 			margin-top: 5px
 			height: 4px
+			width: 25px
 
 	button
 		border: none
 
 	.navbar-brand
-		height: 100px
+		position: absolute
+		left: 50%
+		margin-left: -105px !important  /* 50% of your logo width */
+		display: block
+		height: 150px
 		padding:
 			bottom: 10px
-		padding-left: 30%
 		img
-			height: 95%
+			height: 100%
 			width: auto
 
+	.navbar-collapse
+		border: none
+		box-shadow: none
+		background: rgba(255,255,255,1)
+		margin-top: 50px
+		height: auto !important
+
 .main
-	// height: 100vh
-	background: #eb01a5
-	background-image: url('../img/ico.png') /* fallback */
-	background-image: url('../img/ico.png'), linear-gradient(left,#0078AA, #009EAA) /* W3C */
+	background: #eb01a5,linear-gradient(left,#0078AA, #009EAA) 
+	background-image: url('../img/backIco.png') /* fallback */
+	background-image: url('../img/backIco.png'), linear-gradient(left,#0078AA, #009EAA) /* W3C */
+
 	background:
-		size: 100% auto
-		//position: top
+		size: 150px auto, auto auto
+		position: bottom 10% left 5%, center center
 		repeat: no-repeat
-		//attachment: fixed
+
 
 .mainText
-	min-height: 400px
+	margin-left: 5%
+	margin-right: 5%
+	min-height: 300px
 	text-align: center
 	h1
+		font-size: 2em
+		color: white
+		font-family: Netto Offc
+		span
+			color: #7AC943
 	p
+		color: white
 
 
 
 
-.mainBox
-	height: 80px
+
 
 
 

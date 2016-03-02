@@ -10,50 +10,85 @@
 
 /* line 9, main.sass */
 .navbar-default {
+  box-shadow: none;
+  position: relative;
   border: none;
+  outline: 1px solid white;
+  outline-offset: 5px;
   border-radius: 0px;
+  height: 150px;
   margin-bottom: 0px;
   background-image: none;
   background-color: rgba(255, 255, 255, 0);
 }
-/* line 19, main.sass */
+/* line 21, main.sass */
+.navbar-default .navbar-toggle {
+  margin-top: 5%;
+  margin-right: 10%;
+  z-index: 1;
+}
+/* line 25, main.sass */
 .navbar-default .navbar-toggle .icon-bar {
   background-color: white;
   margin-top: 5px;
   height: 4px;
+  width: 25px;
 }
-/* line 24, main.sass */
+/* line 31, main.sass */
 .navbar-default button {
   border: none;
 }
-/* line 27, main.sass */
+/* line 34, main.sass */
 .navbar-default .navbar-brand {
-  height: 100px;
+  position: absolute;
+  left: 50%;
+  margin-left: -105px !important;
+  display: block;
+  height: 150px;
   padding-bottom: 10px;
-  padding-left: 30%;
 }
-/* line 32, main.sass */
+/* line 42, main.sass */
 .navbar-default .navbar-brand img {
-  height: 95%;
+  height: 100%;
   width: auto;
 }
+/* line 46, main.sass */
+.navbar-default .navbar-collapse {
+  border: none;
+  box-shadow: none;
+  background: white;
+  margin-top: 50px;
+  height: auto !important;
+}
 
-/* line 36, main.sass */
+/* line 53, main.sass */
 .main {
-  background: #eb01a5;
-  background-image: url("../img/ico.png");
-  background-image: url("../img/ico.png"), linear-gradient(to right, #0078aa, #009eaa);
-  background-size: 100% auto;
+  background: #eb01a5, linear-gradient(to right, #0078aa, #009eaa);
+  background-image: url("../img/backIco.png");
+  background-image: url("../img/backIco.png"), linear-gradient(to right, #0078aa, #009eaa);
+  background-size: 150px auto, auto auto;
+  background-position: bottom 10% left 5%, center center;
   background-repeat: no-repeat;
 }
 
-/* line 47, main.sass */
+/* line 64, main.sass */
 .mainText {
-  min-height: 400px;
+  margin-left: 5%;
+  margin-right: 5%;
+  min-height: 300px;
   text-align: center;
 }
-
-/* line 56, main.sass */
-.mainBox {
-  height: 80px;
+/* line 69, main.sass */
+.mainText h1 {
+  font-size: 2em;
+  color: white;
+  font-family: Netto Offc;
+}
+/* line 73, main.sass */
+.mainText h1 span {
+  color: #7AC943;
+}
+/* line 75, main.sass */
+.mainText p {
+  color: white;
 }
