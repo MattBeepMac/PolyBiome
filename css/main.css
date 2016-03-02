@@ -66,29 +66,26 @@
   background: #eb01a5, linear-gradient(to right, #0078aa, #009eaa);
   background-image: url("../img/backIco.png");
   background-image: url("../img/backIco.png"), linear-gradient(to right, #0078aa, #009eaa);
-  background-size: 150px auto, 100% 100%;
-  background-position: bottom 10% left 5%, center center;
-  background-repeat: no-repeat;
 }
 
-/* line 64, main.sass */
+/* line 63, main.sass */
 .mainText {
   margin-left: 5%;
   margin-right: 5%;
   min-height: 300px;
   text-align: center;
 }
-/* line 69, main.sass */
+/* line 68, main.sass */
 .mainText h1 {
   font-size: 2em;
   color: white;
   font-family: Netto Offc;
 }
-/* line 73, main.sass */
+/* line 72, main.sass */
 .mainText h1 span {
   color: #7AC943;
 }
-/* line 75, main.sass */
+/* line 74, main.sass */
 .mainText p {
   color: white;
 }
