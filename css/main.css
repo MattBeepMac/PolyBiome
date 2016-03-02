@@ -66,26 +66,34 @@
   background: #eb01a5, linear-gradient(to right, #0078aa, #009eaa);
   background-image: url("../img/backIco.png");
   background-image: url("../img/backIco.png"), linear-gradient(to right, #0078aa, #009eaa);
+  background-image: url("../img/backIco.png"), -moz-linear-gradient(left, #0078AA, #009EAA);
+  background-image: url("../img/backIco.png"), -webkit-gradient(linear, 0 100%, 0 0, from(#0078AA), to(#009EAA));
+  background-image: url("../img/backIco.png"), -webkit-linear-gradient(left, #0078AA, #009EAA);
+  background-image: url("../img/backIco.png"), -o-linear-gradient(left, #0078AA, #009EAA);
+  background-size: 150px auto, 100% 100%;
+  background-position: bottom 10% left 5%, center center;
+  background-repeat: no-repeat;
 }
 
-/* line 63, main.sass */
+/* line 67, main.sass */
 .mainText {
   margin-left: 5%;
   margin-right: 5%;
   min-height: 300px;
   text-align: center;
 }
-/* line 68, main.sass */
+/* line 72, main.sass */
 .mainText h1 {
   font-size: 2em;
   color: white;
   font-family: Netto Offc;
 }
-/* line 72, main.sass */
+/* line 76, main.sass */
 .mainText h1 span {
   color: #7AC943;
 }
-/* line 74, main.sass */
+/* line 78, main.sass */
 .mainText p {
   color: white;
+  display: none;
 }

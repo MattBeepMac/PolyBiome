@@ -54,10 +54,14 @@
 	background: #eb01a5,linear-gradient(left,#0078AA, #009EAA) 
 	background-image: url('../img/backIco.png') /* fallback */
 	background-image: url('../img/backIco.png'), linear-gradient(left,#0078AA, #009EAA) /* W3C */
-	// background:
-	// 	size: 150px auto, 100% 100%
-	// 	position: bottom 10% left 5%, center center
-	// 	repeat: no-repeat
+	background-image: url('../img/backIco.png'),-moz-linear-gradient(left, #0078AA, #009EAA) // FF 3.6+
+	background-image: url('../img/backIco.png'), -webkit-gradient(linear, 0 100%, 0 0, from(#0078AA), to(#009EAA)) // Safari 4+, Chrome 2+
+	background-image: url('../img/backIco.png'), -webkit-linear-gradient(left, #0078AA, #009EAA) // Safari 5.1+, Chrome 10+
+	background-image: url('../img/backIco.png'), -o-linear-gradient(left, #0078AA, #009EAA) // Opera 11.10
+	background:
+		size: 150px auto, 100% 100%
+		position: bottom 10% left 5%, center center
+		repeat: no-repeat
 
 
 .mainText
@@ -73,6 +77,7 @@
 			color: #7AC943
 	p
 		color: white
+		display: none
 
 
 
