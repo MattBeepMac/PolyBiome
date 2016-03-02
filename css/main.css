@@ -66,7 +66,7 @@
   background: #eb01a5, linear-gradient(to right, #0078aa, #009eaa);
   background-image: url("../img/backIco.png");
   background-image: url("../img/backIco.png"), linear-gradient(to right, #0078aa, #009eaa);
-  background-size: 150px auto, auto auto;
+  background-size: 150px auto, 100% 100%;
   background-position: bottom 10% left 5%, center center;
   background-repeat: no-repeat;
 }
