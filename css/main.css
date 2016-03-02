@@ -67,7 +67,7 @@
   background-image: url("../img/backIco.png");
   background-image: url("../img/backIco.png"), linear-gradient(to right, #0078aa, #009eaa);
   background-image: url("../img/backIco.png"), -moz-linear-gradient(left, #0078AA, #009EAA);
-  background-image: url("../img/backIco.png"), -webkit-gradient(linear, 0% 100%, 100% 100%, color-stop(0%, #0078AA), color-stop(100%, #009EAA));
+  background-image: url("../img/backIco.png"), -webkit-gradient(linear, 100% 0%, 0% 0%, color-stop(100%, #0078AA), color-stop(0%, #009EAA));
   background-image: url("../img/backIco.png"), -webkit-gradient(left, #0078AA, #009EAA);
   background-image: url("../img/backIco.png"), -o-linear-gradient(left, #0078AA, #009EAA);
   background-size: 250px auto, 100% 100%;
