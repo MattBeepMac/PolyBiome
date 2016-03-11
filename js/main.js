@@ -5,7 +5,7 @@ $(".navbar-nav a").mouseover(function(){
 });
 $(".navbar-nav a").mouseout(function(){
 	$('.navbar-nav>.active>a').css({
-		'box-shadow' : 'inset 0 3px 9px rgba(0,0,0,0.5)'
+		'box-shadow' : 'inset 0 3px 9px rgba(0,0,0,0.2)'
 	});
 });
 $(window).scroll(function(){
@@ -24,7 +24,7 @@ $(window).scroll(function(){
 		});
 	}
 
-	if (topScroll >=  $(window).height() + 5*$('#mol1').height()){
+	if (topScroll >=  $(window).height() + 7*$('#mol1').height()){
 		$('#mol1').css({
 			'transform' : 'translate(0px, 0px)'
 		});
