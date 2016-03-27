@@ -32,4 +32,12 @@ $(window).scroll(function(){
 			'transform' : 'translate(0px, 0px)'
 		});
 	};
+	if (topScroll >=  $(window).height() + 12*$('#logoIgem').height()){
+		$('#logoIgem').css({
+			'transform' : 'translate(0px, 0px)'
+		});
+		$('#logoDracBlue').css({
+			'transform' : 'translate(0px, 0px)'
+		});
+	};
 })
