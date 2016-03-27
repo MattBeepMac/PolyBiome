@@ -32,7 +32,7 @@ $(window).scroll(function(){
 			'transform' : 'translate(0px, 0px)'
 		});
 	};
-	if (topScroll >=  $(window).height() + 12*$('#logoIgem').height()){
+	if (topScroll >=  $(window).height() + 24*$('#logoIgem').height()){
 		$('#logoIgem').css({
 			'transform' : 'translate(0px, 0px)'
 		});
