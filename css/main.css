@@ -518,61 +518,61 @@ img.food.is-showing {
     min-height: 85vh;
   }
 
-  /* line 377, main.sass */
+  /* line 379, main.sass */
   #sec1 .textSec h2, #sec2 .textSec h2, #sec3 .textSec h2, #sec4 .textSec h2, #secTeam .textSec h2 {
     margin-left: 20%;
     margin-right: 20%;
     font-size: 3em;
   }
-  /* line 381, main.sass */
+  /* line 383, main.sass */
   #sec1 .textSec p, #sec2 .textSec p, #sec3 .textSec p, #sec4 .textSec p, #secTeam .textSec p {
     margin-left: 25%;
     margin-right: 25%;
     font-size: 1.5em;
     margin-top: 50px;
   }
-  /* line 386, main.sass */
+  /* line 388, main.sass */
   #sec1 .imgSec, #sec2 .imgSec, #sec3 .imgSec, #sec4 .imgSec, #secTeam .imgSec {
     margin-top: 5%;
     margin-left: 35%;
     margin-right: 35%;
   }
-  /* line 390, main.sass */
+  /* line 392, main.sass */
   #sec1 .imgSec #ribbon, #sec2 .imgSec #ribbon, #sec3 .imgSec #ribbon, #sec4 .imgSec #ribbon, #secTeam .imgSec #ribbon {
     transform: translate(0px, -80px);
     transition: transform 0.5s ease-in;
   }
 
-  /* line 393, main.sass */
+  /* line 395, main.sass */
   .spacedTop {
     padding-top: 15%;
   }
 
-  /* line 395, main.sass */
+  /* line 397, main.sass */
   .spacedBottom {
     padding-bottom: 5%;
   }
 
-  /* line 398, main.sass */
+  /* line 400, main.sass */
   #secTeam #faces {
     margin-left: 0%;
     margin-right: 0%;
   }
 }
 @media all and (orientation: landscape) and (min-width: 768px) {
-  /* line 409, main.sass */
+  /* line 411, main.sass */
   #sec1 .textSec p, #sec2 .textSec p, #sec3 .textSec p, #sec4 .textSec p, #secTeam .textSec p {
     margin-left: 20%;
     margin-right: 20%;
   }
 
-  /* line 413, main.sass */
+  /* line 415, main.sass */
   #secTeam #faces {
     margin-right: 5%;
   }
 }
 @media screen and (min-width: 1280px) {
-  /* line 420, main.sass */
+  /* line 422, main.sass */
   .navbar-default .navbar-nav > li > a {
     font-weight: bold;
   }
